@@ -5,3 +5,7 @@ __pycache__/
 
 # Distribution / packaging
 venv/
+
+# files
+bookdata.json
+bookdata.csv
