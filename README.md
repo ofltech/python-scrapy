@@ -8,7 +8,7 @@ Get started with the `Python Scrapy` project by following the steps below:
 
 1. Install python virtual environment and activate.
 2. Install required python modules for this project.
-3. View/Run Python Scrapy Spider.
+3. Create/View/Run Python Scrapy Spider.
 
 ### Step 1 - Install Python Virtual Environment and Activate
 
@@ -77,9 +77,16 @@ To install the required modules for this python project run the following comman
 pip install -r requirements.txt
 ```
 
-### Step 3 - View/Run Python Scrapy Spider
+### Step 3 - Create/View/Run Python Scrapy Spider
 
-Once the required python modules are installed you should be able to view/run the Python Scrapy Spider with the below commands (from within the project folder).
+Once the required python modules are installed you should be able to create/view/run the Python Scrapy Spider with the below commands (from within the project folder, inside the spiders sub-directory).
+
+* Create the project spiders:
+
+```bash
+cd bookscraper/spiders
+scrapy genspider bookspider books.toscrape.com
+```
 
 * View the project spiders:
 
